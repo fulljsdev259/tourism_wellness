@@ -1,0 +1,25 @@
+.leave-review {
+  color: #007bff;
+  margin-left: 0;
+  cursor: pointer;
+}
+.comment-box{
+  margin-left: 0;
+  .btn{
+    font-size: 13px;  
+  }
+}
+.error{
+    color: red;
+    margin-left: 10px;
+}
+.add-review{
+  background: #22b5fb;
+  color: #fff;
+}
+.review-box{  
+  .form-group{
+    display: flex;
+    align-items: flex-end;    
+  }
+}

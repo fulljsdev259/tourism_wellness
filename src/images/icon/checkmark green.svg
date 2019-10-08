@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/checkmark green</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon/checkmark-green" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+        <polygon id="Path" fill="#24D690" transform="translate(12.000000, 11.500000) rotate(-180.000000) translate(-12.000000, -11.500000) " points="14.6666667 3 24 12.1350363 21.3335219 14.7447566 14.6666667 8.21999435 2.70268232 20 -1.77635684e-15 17.3548461"></polygon>
+    </g>
+</svg>

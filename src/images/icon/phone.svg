@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/phone number</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon/phone-number" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+        <path d="M4.77506918,0.443654051 L8.23979094,3.90838092 C8.8313288,4.41541412 8.8313288,5.34497499 8.23979094,5.93651373 L6.29616654,7.880141 C9.00033962,12.1054177 12.2960506,15.4011335 16.0987939,17.7672884 L18.1269237,15.7391556 C18.6339562,15.2321224 19.5635157,15.2321224 20.1550536,15.7391556 L23.6197753,19.2038825 C24.1268078,19.7954212 24.1268078,20.7249821 23.6197753,21.2320153 L21.5916455,23.2601481 C16.6903318,28.161469 -4.09799872,7.28860226 0.71880957,2.38728132 L2.74693938,0.443654051 C3.33847724,-0.147884684 4.18353132,-0.147884684 4.77506918,0.443654051 Z" id="Path" fill="#A4AFD0"></path>
+    </g>
+</svg>

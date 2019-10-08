@@ -1,0 +1,193 @@
+.profile-row {
+    // background-image: linear-gradient(110deg, rgb(255, 108, 201) 29%, rgb(133, 89, 240) 69%);
+  }
+  .profile-form {
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    @media all and (max-width: 767px) {
+      margin: 15px;
+      margin-top: 0px;
+      padding: 0 20px;
+    }
+    .profile-title {
+      margin: 40px auto;
+      @media all and (max-width: 767px) {
+        margin: 30px auto;
+      }
+      h3 {
+        font-family: "Open Sans";
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+        color: #212529;
+        @media all and (max-width: 767px) {
+          font-size: 22px;
+        }
+      }
+    }
+    .input-fields-section {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      @media all and (max-width: 767px) {
+        margin-bottom: 10px;
+      }
+      label {
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        color: #808080;
+        text-align: left;
+        color: #000;
+        font-weight: 700;
+        font-family: "Open Sans";
+        font-size: 13px;
+        text-transform: capitalize;
+        padding: 0.6em 0;
+        color: #000;
+        font-weight: 700;
+        @media all and (max-width: 767px) {
+          font-size: 11px;
+        }
+      }
+      label.error {
+        padding: 8px 5px 8px 5px;
+        color: red;
+      }
+      .input-field {
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        padding: 8px 10px 8px 20px;
+        font-family: "Open Sans";
+        font-size: 16px;
+        color: rgb(51, 51, 51);
+        @media all and (max-width: 767px) {
+          font-size: 13px;
+        }
+      }
+      .input-field::placeholder {
+        font-family: "Open Sans";
+        font-size: 18px;
+        color: #212529;
+      }
+      .input-fields {
+        margin-bottom: 20px;
+        select {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          background: transparent;
+          background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+          background-repeat: no-repeat;
+          background-position-x: 100%;
+          background-position-y: 7px;
+          padding-right: 2rem;
+          border: 1px solid #e5e5e5;
+          border-radius: 10px;
+          padding: 10px 10px 10px 20px;
+          font-family: "Open Sans";
+          font-size: 16px;
+          width: 100%;
+          margin-bottom: 10px;
+          background-color: #fff;
+          color: rgb(51, 51, 51);
+          @media all and (max-width: 767px) {
+            font-size: 13px;
+          }
+        }
+        @media all and (min-width: 768px) {
+          width: 50%;
+        }
+      
+      }
+      .input-fields :nth-child(even) {
+        margin-bottom: 0;
+      }
+      
+    }
+  
+    .notifications-checkmark {
+      margin-top: 20px ;
+      .notification-text {
+        font-family: "Open Sans";
+        font-size: 12px;
+        color: #212529;
+        position: relative;
+        left: 10px;
+        top: -3px;
+      }
+      label {
+        font-family: "Open Sans";
+        font-size: 14px;
+        color: #212529;
+        font-weight: normal;
+      }
+      input[type="checkbox"] {
+        display: none;
+        border: 1px solid;
+      }
+  
+      input[type="checkbox"] + label:before {
+        content: "";
+        border: 0.1em solid #e5e5e5;
+        border-radius: 0.2em;
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        border-radius: 5px;
+        padding-left: 0.1em;
+        padding-top: 0.1em;
+        margin-right: 0.2em;
+        vertical-align: bottom;
+        color: transparent;
+        transition: 0.2s;
+        background-color: white;
+      }
+  
+      input[type="checkbox"] + label:active:before {
+        transform: scale(0);
+      }
+  
+      input[type="checkbox"]:checked + label:before {
+        content: url("../../images/checkmark.svg");
+        background-color: white;
+        border: 0.1em solid #e5e5e5;
+      }
+    }
+    .hr-div {
+      margin: 0 auto;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .save-changes {
+      margin: 50px auto;
+      .save-btn {
+        border-radius: 10px;
+        background: #22b5fb;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: 800;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.5px;
+        text-align: right;
+        color: #ffffff;
+        text-transform: uppercase;
+        border: none;
+        padding: 10px 55px;
+        @media all and (max-width: 767px) {
+          text-align: center;
+          width: 100%;
+          font-size: 14px;
+        }
+        @media all and (max-width: 424px) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  

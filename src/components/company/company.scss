@@ -1,0 +1,67 @@
+.companyList {
+  min-height: 62vh;
+  .companyTable {
+    td {
+      img {
+        cursor: pointer;
+      }
+      a {
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.companyImageDiv{
+  img{
+    max-width: 50%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+}
+.weekdayOpen {
+  margin-bottom: 20px;
+  label {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 7px;
+    padding-right: 2rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 10px 10px 10px 20px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #333333;
+    @media all and (max-width: 767px) {
+      font-size: 13px;
+    }
+  }
+  .weekdayOpenDiv {
+    display: flex;
+    justify-content: space-between;
+    select {
+      min-width: 16vw;
+      @media all and (max-width: 767px) {
+        min-width: 40vw;
+      }
+    }
+    label {
+      font-weight: 500;
+      color: #808080;
+    }
+  }
+  @media all and (min-width: 768px) {
+    width: 50%;
+  }
+}

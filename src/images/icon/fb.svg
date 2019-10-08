@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon/fb" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+        <path d="M13.9896128,24 L13.9896128,13.0524372 L17.6186353,13.0524372 L18.1620299,8.78597774 L13.9896128,8.78597774 L13.9896128,6.06211294 C13.9896128,4.82687447 14.3283678,3.98510021 16.0777171,3.98510021 L18.3089284,3.98411298 L18.3089284,0.168157408 C17.9230489,0.116163532 16.5985787,0 15.0576606,0 C11.840734,0 9.63833907,1.98827213 9.63833907,5.63958043 L9.63833907,8.78597774 L6,8.78597774 L6,13.0524372 L9.63833907,13.0524372 L9.63833907,24 L13.9896128,24 Z" id="f" fill="#0A0A0A"></path>
+    </g>
+</svg>

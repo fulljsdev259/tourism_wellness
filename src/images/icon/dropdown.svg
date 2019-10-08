@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dropdown</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon/dropdown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+        <polygon id="Path" fill="#0A0A0A" points="20.1136364 4 12.0681818 12.2617521 3.81818182 4.20483683 0 8.0967366 12.1363636 19.9772727 24 7.82362082"></polygon>
+    </g>
+</svg>

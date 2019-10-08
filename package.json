@@ -1,0 +1,51 @@
+{
+  "name": "wellness_front_end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "formik": "^1.5.1",
+    "immutability-helper": "^3.0.0",
+    "jwt-simple": "^0.5.5",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.2",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.2",
+    "react-facebook": "^8.0.4",
+    "react-facebook-login": "^4.1.1",
+    "react-fb-like": "^0.5.1",
+    "react-geocode": "^0.1.2",
+    "react-geolocated": "^2.5.0",
+    "react-google-login": "^5.0.4",
+    "react-google-maps": "^9.4.5",
+    "react-loader-spinner": "^2.3.0",
+    "react-modal": "^3.8.1",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "react-share": "^2.4.0",
+    "react-star-ratings": "^2.3.0",
+    "react-toastify": "^4.5.2",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-form": "^8.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="83.6321351%" y2="83.6321351%" id="linearGradient-1">
+            <stop stop-color="#FF6CC9" offset="0%"></stop>
+            <stop stop-color="#8559F0" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="17.36" cy="17.36" r="17.36"></circle>
+        <filter x="-15.8%" y="-10.1%" width="131.7%" height="131.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.19569493 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="15.6367188 19.5351562 10.9140625 19.5351562 10.9140625 16.1328125 15.6367188 16.1328125 15.6367188 11.4736328 19.0517578 11.4736328 19.0517578 16.1328125 23.7744141 16.1328125 23.7744141 19.5351562 19.0517578 19.5351562 19.0517578 24.1181641 15.6367188 24.1181641"></polygon>
+        <filter x="-11.7%" y="-11.9%" width="123.3%" height="123.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-1462.000000, -41.000000)" fill-rule="nonzero">
+            <g id="header" transform="translate(45.000000, 41.000000)">
+                <g id="#6" transform="translate(1291.000000, 0.000000)">
+                    <g id="button" transform="translate(129.000000, 1.000000)">
+                        <g id="Oval-Copy-7">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="#22b5fb" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="+">
+                            <use fill="#FFFFFF" xlink:href="#path-4"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

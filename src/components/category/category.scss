@@ -1,0 +1,128 @@
+.categories {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  // margin: 20px auto;
+  justify-content: space-between;
+  padding-left: 0;
+  @media all and (max-width: 767px) {
+    padding-left: 15px;
+  }
+  
+  .category {
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 2px 7px rgba(107, 107, 107, 0.07);
+    background-color: #ffffff;
+    margin-left: 0;
+    @media all and (max-width: 767px) {
+      height: 80px;
+      width: 80px;
+    }
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+      >div{
+        color: #b1b5c1;
+      }    
+    }
+    .item img {
+      max-height: 50px;
+    }
+    
+    &.selected {
+      background: #f173ab;
+      box-shadow: 0px 4px 18px rgb(201, 201, 201);
+      .item {
+        background: none;
+        >div{
+          color:#fff;
+        }
+      }
+    }
+
+    .item {
+    }
+    &:hover {
+      background-color: #f173ab;
+      box-shadow: 0px 4px 18px rgb(201, 201, 201);
+    }
+  }
+}
+
+.description-div {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  @media all and (max-width: 767px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .cat {
+    width: 100%;
+    div:nth-child(1) {
+      font-size: 34px;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+    div:nth-child(2) {
+      margin-bottom: 20px;
+    }
+  }
+  .cat-img {
+    // width:40%;
+    height: 0px;
+    width: 50%;
+    text-align: right;
+    img {
+      // position: absolute;
+      // top: -50px;
+      // right:50px;
+      // width: 30%;
+      // width: 120%;
+      position: relative;
+      top: -100px;
+      max-width: 76%;
+      max-height: 185px;
+    }
+    @media all and (max-width: 767px) {
+      display: none;
+    }
+  }
+  .cat-bg-img {
+    width: 40%;
+    display: none;
+    @media all and (max-width: 767px) {
+      display: block;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+.event-page{
+  .event-div{
+  .load-more-button-container{
+    display:flex; 
+    justify-content:center;
+    flex-direction:row;
+    cursor:pointer;
+  }
+  .load-more-button{
+    border:2px solid #ffffff;
+    border-radius:26px;
+    padding:4px 36px;
+    color:#ffffff;
+    background:#28b5fb;
+    margin-top:25px;
+  }
+}
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>user</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="13.6458333%" y1="12.9264323%" x2="83.6321351%" y2="83.6321351%" id="linearGradient-1">
+            <stop stop-color="#FF6CC9" offset="0%"></stop>
+            <stop stop-color="#8559F0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="83.6321351%" y2="83.6321351%" id="linearGradient-2">
+            <stop stop-color="#FF6CC9" offset="0%"></stop>
+            <stop stop-color="#8559F0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3" transform="translate(-531.000000, -2920.000000)">
+            <g id="#5" transform="translate(458.000000, 2810.000000)">
+                <g id="user" transform="translate(74.000000, 111.000000)">
+                    <circle id="Mask" stroke="#fff" fill-rule="nonzero" cx="30" cy="30" r="30"></circle>
+                    <g id="icon/user" transform="translate(10.000000, 10.000000)">
+                        <g id="iconspace_User_25px">
+                            <polygon id="User" points="0 0 40 0 40 40 0 40"></polygon>
+                            <path d="M20,17.6 C16.0235498,17.6 12.8,14.3764502 12.8,10.4 C12.8,6.4235498 16.0235498,3.2 20,3.2 C23.9764502,3.2 27.2,6.4235498 27.2,10.4 C27.2,14.3764502 23.9764502,17.6 20,17.6 Z" id="User" fill="#fff" fill-rule="nonzero"></path>
+                            <path d="M20,19.2 C26.627417,19.2 32,24.572583 32,31.2 L32,34.4 C32,34.8418278 31.6418278,35.2 31.2,35.2 L8.8,35.2 C8.3581722,35.2 8,34.8418278 8,34.4 L8,31.2 C8,24.572583 13.372583,19.2 20,19.2 Z" id="User" fill="#fff" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
